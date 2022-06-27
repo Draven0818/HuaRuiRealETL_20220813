@@ -1,0 +1,42 @@
+{
+  "entity": {
+    "1fieldStringUid": {
+      "label": "tel",
+      "props": {
+        "1fieldStringUid": "uid",
+        "fieldString": "telephone",
+        "black_type": "tel_hmd_type",
+        "tmp2": "update_time"
+      }
+    },
+    "2fieldStringUid": {
+      "label": "person",
+      "props": {
+        "2fieldStringUid": "uid",
+        "tmp1": "user_id",
+        "tmp13": "user_name",
+        "tmp16": "cert_type",
+        "fieldString": "cert_id",
+        "tmp14": "sex",
+        "tmp2": "date_birth",
+        "tmp3": "age",
+        "tmp4": "age_group",
+        "tmp15": "vacation",
+        "tmp5": "edu_high",
+        "tmp6": "sl_id_count_bad",
+        "tmp7": "sl_id_count_executed",
+        "tmp8": "sl_id_count_fraud",
+        "black_type": "black_type",
+        "tmp10": "sl_id_count_overdue_label",
+        "tmp11": "aging",
+        "tmp12": "sl_id_count_use_avgquota"
+      }
+    }
+  },
+  "relation": [
+  ],
+  "edgeType": "SIMPLE",
+  "dataType": {
+    "name": "string"
+  }
+}

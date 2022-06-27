@@ -1,0 +1,469 @@
+{
+  "entity": {
+    "addressFUid": {
+      "label": "address",
+      "props": {
+        "addressFUid": "uid",
+        "tmp1": "province",
+        "tmp2": "city",
+        "tmp4": "area",
+        "addressF": "detailed_address",
+        "tmp3": "update_time"
+      }
+    },
+    "idAddrUid": {
+      "label": "address",
+      "props": {
+        "idAddrUid": "uid",
+        "tmp1": "province",
+        "tmp2": "city",
+        "tmp4": "area",
+        "idAddr": "detailed_address",
+        "tmp3": "update_time"
+      }
+    },
+    "contactAddrUid": {
+      "label": "address",
+      "props": {
+        "contactAddrUid": "uid",
+        "contactAddrProvince": "province",
+        "contactAddrCity": "city",
+        "contactAddrTown": "area",
+        "contactAddr": "detailed_address",
+        "tmp3": "update_time"
+      }
+    },
+    "companyNameUid": {
+      "label": "company",
+      "props": {
+        "companyNameUid": "uid",
+        "companyName": "company_name",
+        "tmp1": "update_time"
+      }
+    },
+    "familyContactsMobileUid": {
+      "label": "tel",
+      "props": {
+        "familyContactsMobileUid": "uid",
+        "familyContactsMobile": "telephone",
+        "tmp1": "tel_hmd_type",
+        "tmp2": "update_time"
+      }
+    },
+    "otherContactsMobileUid": {
+      "label": "tel",
+      "props": {
+        "otherContactsMobileUid": "uid",
+        "otherContactsMobile": "telephone",
+        "tmp1": "tel_hmd_type",
+        "tmp2": "update_time"
+      }
+    },
+    "phonenumberUid": {
+      "label": "tel",
+      "props": {
+        "phonenumberUid": "uid",
+        "phonenumber": "telephone",
+        "tmp1": "tel_hmd_type",
+        "tmp2": "update_time"
+      }
+    },
+    "mobilePhoneUid": {
+      "label": "tel",
+      "props": {
+        "mobilePhoneUid": "uid",
+        "mobilePhone": "telephone",
+        "tmp1": "tel_hmd_type",
+        "tmp2": "update_time"
+      }
+    },
+    "bankCardMobileUid": {
+      "label": "tel",
+      "props": {
+        "bankCardMobileUid": "uid",
+        "bankCardMobile": "telephone",
+        "tmp1": "tel_hmd_type",
+        "tmp2": "update_time"
+      }
+    },
+    "prcidUid": {
+      "label": "person",
+      "props": {
+        "prcidUid": "uid",
+        "tmp1": "user_id",
+        "name": "user_name",
+        "certTypeF": "cert_type",
+        "prcid": "cert_id",
+        "sexF": "sex",
+        "tmp2": "date_birth",
+        "tmp3": "age",
+        "tmp4": "age_group",
+        "occupationF": "vacation",
+        "tmp5": "edu_high",
+        "tmp6": "sl_id_count_bad",
+        "tmp7": "sl_id_count_executed",
+        "tmp8": "sl_id_count_fraud",
+        "tmp9": "black_type",
+        "tmp10": "sl_id_count_overdue_label",
+        "tmp11": "aging",
+        "tmp12": "sl_id_count_use_avgquota"
+      }
+    },
+    "certIdUid": {
+      "label": "person",
+      "props": {
+        "certIdUid": "uid",
+        "customerSerialNo": "user_id",
+        "customerName": "user_name",
+        "certType": "cert_type",
+        "certId": "cert_id",
+        "sex": "sex",
+        "tmp2": "date_birth",
+        "age": "age",
+        "tmp4": "age_group",
+        "careerCategory": "vacation",
+        "tmp5": "edu_high",
+        "tmp6": "sl_id_count_bad",
+        "tmp7": "sl_id_count_executed",
+        "tmp8": "sl_id_count_fraud",
+        "tmp9": "black_type",
+        "tmp10": "sl_id_count_overdue_label",
+        "tmp11": "aging",
+        "tmp12": "sl_id_count_use_avgquota"
+      }
+    },
+    "contactEntityUid": {
+      "label": "person",
+      "props": {
+        "contactEntityUid": "uid",
+        "tmp16": "user_id",
+        "contactPhone": "user_name",
+        "tmp1": "cert_type",
+        "tmp2": "cert_id",
+        "tmp3": "sex",
+        "tmp4": "date_birth",
+        "tmp5": "age",
+        "tmp13": "age_group",
+        "tmp14": "vacation",
+        "tmp15": "edu_high",
+        "tmp6": "sl_id_count_bad",
+        "tmp7": "sl_id_count_executed",
+        "tmp8": "sl_id_count_fraud",
+        "tmp9": "black_type",
+        "tmp10": "sl_id_count_overdue_label",
+        "tmp11": "aging",
+        "tmp12": "sl_id_count_use_avgquota"
+      }
+    },
+    "familyContactsEntityUid": {
+      "label": "person",
+      "props": {
+        "familyContactsEntityUid": "uid",
+        "tmp16": "user_id",
+        "familyContactsName": "user_name",
+        "tmp1": "cert_type",
+        "tmp2": "cert_id",
+        "tmp3": "sex",
+        "tmp4": "date_birth",
+        "tmp5": "age",
+        "tmp13": "age_group",
+        "tmp14": "vacation",
+        "tmp15": "edu_high",
+        "tmp6": "sl_id_count_bad",
+        "tmp7": "sl_id_count_executed",
+        "tmp8": "sl_id_count_fraud",
+        "tmp9": "black_type",
+        "tmp10": "sl_id_count_overdue_label",
+        "tmp11": "aging",
+        "tmp12": "sl_id_count_use_avgquota"
+      }
+    },
+    "otherContactsEntityUid": {
+      "label": "person",
+      "props": {
+        "otherContactsEntityUid": "uid",
+        "tmp16": "user_id",
+        "otherContactsName": "user_name",
+        "tmp1": "cert_type",
+        "tmp2": "cert_id",
+        "tmp3": "sex",
+        "tmp4": "date_birth",
+        "tmp5": "age",
+        "tmp13": "age_group",
+        "tmp14": "vacation",
+        "tmp15": "edu_high",
+        "tmp6": "sl_id_count_bad",
+        "tmp7": "sl_id_count_executed",
+        "tmp8": "sl_id_count_fraud",
+        "tmp9": "black_type",
+        "tmp10": "sl_id_count_overdue_label",
+        "tmp11": "aging",
+        "tmp12": "sl_id_count_use_avgquota"
+      }
+    },
+    "applyIdUid": {
+      "label": "entry",
+      "props": {
+        "applyIdUid": "uid",
+        "workflowcode": "intake_type",
+        "tmp1": "apply_time",
+        "applyId": "apply_id",
+        "productCode": "apply_product_name",
+        "tmp2": "apply_status",
+        "loanAmount": "apply_amount",
+        "loanTenor": "apply_termmounth",
+        "tmp4": "loan_time",
+        "initialAmount": "credit_amount",
+        "tmp5": "apply_user_tel",
+        "tmp6": "apply_position_longitude",
+        "tmp7": "apply_position_latitude",
+        "tmp8": "update_time"
+      }
+    },
+    "deviceIdUid": {
+      "label": "device",
+      "props": {
+        "deviceIdUid": "uid",
+        "deviceId": "equipment_id",
+        "tmp01": "last_time",
+        "tmp02": "device_type",
+        "tmp03": "device_model",
+        "tmp04": "before_gps",
+        "tmp05": "real_ip",
+        "tmp06": "wifemac",
+        "tmp07": "bssid",
+        "tmp08": "sim_serial_number",
+        "tmp09": "device_black_type",
+        "tmp10": "update_time"
+      }
+    }
+  },
+  "relation": [
+    {
+      "label": "device_relation",
+      "source": "certIdUid",
+      "target": "deviceIdUid",
+      "start_time": "",
+      "edge_uid": "",
+      "props": {
+        "certIdUid": "src_uid",
+        "deviceIdUid": "dst_uid",
+        "tmp1": "src_label",
+        "tmp2": "dst_label",
+        "tmp3": "relation_type"
+      }
+    },
+    {
+      "label": "address_relation",
+      "source": "prcidUid",
+      "target": "addressFUid",
+      "start_time": "",
+      "edge_uid": "",
+      "props": {
+        "prcidUid": "src_uid",
+        "addressFUid": "dst_uid",
+        "tmp1": "src_label",
+        "tmp2": "dst_label",
+        "addressFType": "relation_type"
+      }
+    },
+    {
+      "label": "address_relation",
+      "source": "certIdUid",
+      "target": "idAddrUid",
+      "start_time": "",
+      "edge_uid": "",
+      "props": {
+        "certIdUid": "src_uid",
+        "idAddrUid": "dst_uid",
+        "tmp1": "src_label",
+        "tmp2": "dst_label",
+        "idAddrType": "relation_type"
+      }
+    },
+    {
+      "label": "address_relation",
+      "source": "certIdUid",
+      "target": "contactAddrUid",
+      "start_time": "",
+      "edge_uid": "",
+      "props": {
+        "certIdUid": "src_uid",
+        "contactAddrUid": "dst_uid",
+        "tmp1": "src_label",
+        "tmp2": "dst_label",
+        "contactAddrType": "relation_type"
+      }
+    },
+    {
+      "label": "entry_relation",
+      "source": "applyIdUid",
+      "target": "prcidUid",
+      "start_time": "",
+      "edge_uid": "",
+      "props": {
+        "applyIdUid": "src_uid",
+        "prcidUid": "dst_uid",
+        "tmp1": "src_label",
+        "tmp2": "dst_label",
+        "tmp3": "relation_type"
+      }
+    },
+    {
+      "label": "entry_relation",
+      "source": "applyIdUid",
+      "target": "certIdUid",
+      "start_time": "",
+      "edge_uid": "",
+      "props": {
+        "applyIdUid": "src_uid",
+        "certIdUid": "dst_uid",
+        "tmp1": "src_label",
+        "tmp2": "dst_label",
+        "tmp3": "relation_type"
+      }
+    },
+    {
+      "label": "company_relation",
+      "source": "prcidUid",
+      "target": "companyNameUid",
+      "start_time": "",
+      "edge_uid": "",
+      "props": {
+        "prcidUid": "src_uid",
+        "companyNameUid": "dst_uid",
+        "tmp1": "src_label",
+        "tmp2": "dst_label"
+      }
+    },
+    {
+      "label": "company_relation",
+      "source": "certIdUid",
+      "target": "companyNameUid",
+      "start_time": "",
+      "edge_uid": "",
+      "props": {
+        "certIdUid": "src_uid",
+        "companyNameUid": "dst_uid",
+        "tmp1": "src_label",
+        "tmp2": "dst_label"
+      }
+    },
+    {
+      "label": "tel_relation",
+      "source": "prcidUid",
+      "target": "phonenumberUid",
+      "start_time": "",
+      "edge_uid": "",
+      "props": {
+        "prcidUid": "src_uid",
+        "phonenumberUid": "dst_uid",
+        "tmp1": "src_label",
+        "tmp2": "dst_label",
+        "ownerTelType": "relation_type"
+      }
+    },
+    {
+      "label": "tel_relation",
+      "source": "certIdUid",
+      "target": "mobilePhoneUid",
+      "start_time": "",
+      "edge_uid": "",
+      "props": {
+        "certIdUid": "src_uid",
+        "mobilePhoneUid": "dst_uid",
+        "tmp1": "src_label",
+        "tmp2": "dst_label",
+        "ownerTelType": "relation_type"
+      }
+    },
+    {
+      "label": "tel_relation",
+      "source": "familyContactsEntityUid",
+      "target": "familyContactsMobileUid",
+      "start_time": "",
+      "edge_uid": "",
+      "props": {
+        "familyContactsEntityUid": "src_uid",
+        "familyContactsMobileUid": "dst_uid",
+        "tmp1": "src_label",
+        "tmp2": "dst_label",
+        "ownerTelType": "relation_type"
+      }
+    },
+    {
+      "label": "tel_relation",
+      "source": "otherContactsEntityUid",
+      "target": "otherContactsMobileUid",
+      "start_time": "",
+      "edge_uid": "",
+      "props": {
+        "otherContactsEntityUid": "src_uid",
+        "otherContactsMobileUid": "dst_uid",
+        "tmp1": "src_label",
+        "tmp2": "dst_label",
+        "ownerTelType": "relation_type"
+      }
+    },
+    {
+      "label": "tel_relation",
+      "source": "certIdUid",
+      "target": "bankCardMobileUid",
+      "start_time": "",
+      "edge_uid": "",
+      "props": {
+        "certIdUid": "src_uid",
+        "bankCardMobileUid": "dst_uid",
+        "tmp1": "src_label",
+        "tmp2": "dst_label",
+        "bankCardMobileType": "relation_type"
+      }
+    },
+    {
+      "label": "person_relation",
+      "source": "prcidUid",
+      "target": "contactEntityUid",
+      "start_time": "",
+      "edge_uid": "",
+      "props": {
+        "prcidUid": "src_uid",
+        "contactEntityUid": "dst_uid",
+        "tmp1": "src_label",
+        "tmp2": "dst_label",
+        "contactEntityType": "relation_type"
+      }
+    },
+    {
+      "label": "person_relation",
+      "source": "certIdUid",
+      "target": "familyContactsEntityUid",
+      "start_time": "",
+      "edge_uid": "",
+      "props": {
+        "certIdUid": "src_uid",
+        "familyContactsEntityUid": "dst_uid",
+        "tmp1": "src_label",
+        "tmp2": "dst_label",
+        "familyContactsEntityType": "relation_type"
+      }
+    },
+    {
+      "label": "person_relation",
+      "source": "certIdUid",
+      "target": "otherContactsEntityUid",
+      "start_time": "",
+      "edge_uid": "",
+      "props": {
+        "certIdUid": "src_uid",
+        "otherContactsEntityUid": "dst_uid",
+        "tmp1": "src_label",
+        "tmp2": "dst_label",
+        "otherContactsEntityType": "relation_type"
+      }
+    }
+  ],
+  "edgeType": "SIMPLE",
+  "dataType": {
+    "age": "Integer"
+  }
+}

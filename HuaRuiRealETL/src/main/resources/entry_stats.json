@@ -1,0 +1,28 @@
+{
+  "entity": {
+    "entryIdUid": {
+      "label": "entry",
+      "props": {
+        "entryIdUid": "uid",
+        "tmp11": "intake_type",
+        "tmp00": "apply_time",
+        "entryId": "apply_id",
+        "tmp01": "apply_product_name",
+        "finalDealTypeCode": "apply_status",
+        "tmp03": "apply_amount",
+        "tmp04": "apply_termmounth",
+        "tmp05": "loan_time",
+        "tmp06": "credit_amount",
+        "tmp07": "apply_user_tel",
+        "tmp08": "apply_position_longitude",
+        "tmp09": "apply_position_latitude",
+        "tmp10": "update_time"
+      }
+    }
+  },
+  "relation": [
+  ],
+  "edgeType": "SIMPLE",
+  "dataType": {
+  }
+}

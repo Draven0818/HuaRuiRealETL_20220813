@@ -1,0 +1,48 @@
+[
+  {
+    "applyId": "00x1",
+    "productCode": "度小满",
+    "workflowcode": "DXM_CREDIT_DECISION_NO",
+    "preApplicationId": "",
+    "productType": "个人消费贷款",
+    "customerType": "个人客户",
+    "prcid": "340702199304042817",
+    "bankcard": "6222021308001908878",
+    "name": "詹三",
+    "phonenumber": "15012344321",
+    "initialAmount": "100分",
+    "creditValidityDays": "100天",
+    "risCode": "10000",
+    "taxMonthlyIncomeSection": "5-10k",
+    "ocrExpdate": "20360401",
+    "r21P12FinallyInterest": "5%",
+    "sexF": "男",
+    "nationalityF": "CHN",
+    "occupationF": "码农",
+    "addressF": "上海",
+    "certTypeF": "居民身份证",
+    "creditType": "首次授信",
+    "pairSimilarity1": "0.8",
+    "pairSimilarity2": "0.7",
+    "basicPicSource1": "人行",
+    "basicPicSource2": "高清人像",
+    "busDept": "信用卡部",
+    "busName": "李四"
+  },
+  {
+    "finalDealTypeCode": "Reject",
+    "entryId": "5555991",
+    "token": "tokenc5aef30d9e024759a83d8c271276cfa8-1647360000000"
+  },
+  {
+    "expireType": "forever",
+    "type": 2,
+    "fieldString": "540702199304041234"
+  },
+  {
+    "expireType": "forever",
+    "type": 1,
+    "fieldString": "15021342449"
+  },{"expireType":"forever","type":1,"fieldString":"15021342449"}
+
+]
